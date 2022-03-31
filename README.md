@@ -3,7 +3,7 @@
 ## Description
 The producer application sends messages to a Kafka topic(messages), which are then read by a Kafka consumer application. The consumer application then stores the consumed data to a cloud PostgreSQL database.
 
-## Steps for Testing/Usage
+## Steps for Setup and Usage
 * Install Docker (and docker-compose)
 * Install Python
 * Run `pip install kafka-python` to install `kafka-python`
